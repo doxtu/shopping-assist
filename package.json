@@ -1,0 +1,19 @@
+{
+  "name": "shopping-assist",
+  "version": "1.0.0",
+  "description": "Shopping list application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doxtu/shopping-assist.git"
+  },
+  "author": "doxtu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doxtu/shopping-assist/issues"
+  },
+  "homepage": "https://github.com/doxtu/shopping-assist#readme"
+}
