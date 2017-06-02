@@ -2,13 +2,37 @@
 body{
 	font-family:Calibri,Verdana,sans-serif;
 }
+
 .jumbotron{
 	color:#fff;
 	background:hsl(240,40%,80%);
 	background:linear-gradient(
-      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),url("../res/jumbotron.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
+}
+
+.list-group{
+	width:27%;
+}
+
+.list-group a{
+	color:black;
+}
+
+.list-group a:hover{
+	background:#337ab7;
+	color:white;
+}
+
+@media screen and (max-width:768px){
+	.list-group{
+		width:100%;
+	}
+
+	.form-inline input{
+		width:100%;
+	}
 }
