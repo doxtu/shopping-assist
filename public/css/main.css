@@ -14,10 +14,6 @@ body{
 	background-size:cover;
 }
 
-.list-group{
-	width:27%;
-}
-
 .list-group a{
 	color:black;
 }
@@ -27,12 +23,26 @@ body{
 	color:white;
 }
 
+.form-inline .form-control{
+	width:70%;
+}
+
+#resultsList{
+	height:300px;
+	overflow:scroll;
+}
+
+#userControls{
+	margin-bottom:25px;
+}
+
 @media screen and (max-width:768px){
 	.list-group{
 		width:100%;
 	}
 
-	.form-inline input{
+	.form-inline input,
+	.form-inline .form-control{
 		width:100%;
 	}
 }
