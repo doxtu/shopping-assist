@@ -36,6 +36,11 @@ body{
 	margin-bottom:25px;
 }
 
+#itemList{
+	width:8.5in;
+	height:11in
+}
+
 @media screen and (max-width:768px){
 	.list-group{
 		width:100%;

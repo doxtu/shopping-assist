@@ -37,7 +37,7 @@ $(document).ready(function exe(){
   });
 
   /*
-    Item selected event functions
+    Item selected event function
   */
   function selectItem(e){
     let name = this.children[1].innerHTML,
@@ -51,6 +51,16 @@ $(document).ready(function exe(){
       name:name,
       price:price
     };
+
+    buildList();
+  }
+
+  //Builds the shopping list
+  function buildList(){
+    //create list that fits in body
+    let listWidth = document.querySelector("#shoppingCart").offsetWidth;
+    let listHeight = document.querySelector("#shoppingCart").offsetHeight;
+    console.log(listWidth,listHeight);
   }
 
 });
